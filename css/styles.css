@@ -1,0 +1,133 @@
+  body {
+    margin: 0;
+  }
+
+  #Top-Page {
+    background-color: #C69CF4;
+    padding: 1% 3%;
+  }
+  .navbar {
+    color: black;
+  }
+  .nav {
+    width: 400px;
+    color: #8D38E9;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+  }
+  li {
+    padding: 0 3%;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .logo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    color: #8D38E9;
+  }
+  .row {
+    padding: 0 7%;
+  }
+  h1 {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    padding: 3% 5%;
+  }
+
+  .round {
+    border-radius: 100%;
+  }
+  .top-img {
+    width: 70%;
+    text-align: center;
+    min-width: 320px;
+    margin: auto;
+    display: block;
+    padding: 5% 0 5%;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .gif {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1024px){
+      h1 {
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 800;
+        padding: 3% 5%;
+        text-align: center;
+      }
+      .top-img {
+        width: 70%;
+        text-align: center;
+        min-width: 320px;
+        margin: auto;
+        display: block;
+        padding: 5% 0 10%;
+      }
+  }
+
+/* About Us */
+
+        /* Mobile */
+  @media screen and (max-width: 1024px){
+    #About-Us {
+      padding: 10% 10%;
+    }
+  }
+        /* PC */
+  @media screen and (min-width: 1024px){
+    #About-Us {
+      padding: 5% 20%;
+    }
+    .card-deck {
+      margin: 0 5%;
+    }
+    .box-shadow {
+      margin: 0 20px;
+    }
+  }
+
+  .aboutUsPic {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  .about-card {
+    border: 3px solid red;
+  }
+  .Intro-text {
+    width: 95%;
+    margin: auto;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  #Carousel {
+    background-color: #D5B6F7;
+    padding: 7% 5%;
+    text-align: center;
+  }
+  h3 {
+    font-family: 'Open Sans' , serif;
+    font-weight: 300;
+  }
+  @media screen and (max-width: 1024px){
+    #Carousel {
+      background-color: #D5B6F7;
+      padding: 35% 5%;
+      text-align: center;
+  }
+}
+.foot {
+  padding: 15px 5% 5px;
+  text-align: center;
+  display: block;
+}
